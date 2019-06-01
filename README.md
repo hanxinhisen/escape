@@ -1,10 +1,7 @@
-###基于 golang builin包
-####实现python中 urllib.parse.quote(uri, safe='-_.~/') safe部分
-新增 
+1.基于 golang builin包 实现类似 python中 urllib.parse.quote(uri, safe='-_.~/') safe部分
+新增以下两个方法
 ```PathEscapeWithOutCharacters```
 ```QueryEscapeWithOutCharacters```
-
-其余保持不变
 
 使用方法
 ```
